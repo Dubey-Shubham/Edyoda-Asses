@@ -1,0 +1,130 @@
+@media (min-width: 870px){
+.nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+}
+.leftcont{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 43px;
+   margin: 2px 84px;
+}
+.rightcont{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 49px;
+   position: absolute;
+   right: 84.5px;
+   top: 12px;
+}
+.but{
+    width:132px; 
+    height:31px; 
+    border-radius:20px; 
+    border:none; 
+    background-image: linear-gradient(to right, #35b6da, #0048FF);
+    color: white;
+    font-size: 13px;
+}
+.navba{
+    display: none;
+}
+.left{
+    display: none;
+}
+}
+
+@media (min-width: 615px) and (max-width: 869px){
+.nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+}
+.leftcont{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 13px;
+   margin: 2px 15px;
+}
+.rightcont{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 19px;
+   position: absolute;
+   right: 15px;
+   top: 12px;
+}
+.but{
+    width:132px; 
+    height:31px; 
+    border-radius:20px; 
+    border:none; 
+    background-image: linear-gradient(to right, #35b6da, #0048FF);
+    color: white;
+    font-size: 13px;
+}
+.navba{
+    display: none;
+}
+.left{
+    display: none;
+}
+}
+
+@media (max-width: 614px){
+.navba{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+}
+
+.leftcont{
+   display: none;
+   flex-direction: row;
+   align-items: flex-start;
+   gap: 13px;
+   margin: 2px 15px;
+}
+.rightcont{
+   display: none;
+}
+.left{
+   display: none;
+   flex-direction: column;
+   align-items: start;
+   background-color: white;
+   position: absolute;
+   top: 55px;
+   right: 0px;
+   gap: 10px;
+   width: 9rem;
+}
+.yes{
+    display: flex;
+}
+.buton{
+    width:132px; 
+    height:31px; 
+    border-radius:20px; 
+    border:none; 
+    background-image: linear-gradient(to right, #35b6da, #0048FF);
+    color: white;
+    font-size: 13px;
+    margin-left:6px ;
+    margin-bottom:6px ;
+}
+.menu{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+}
