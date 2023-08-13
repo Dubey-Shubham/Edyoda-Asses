@@ -7,3 +7,89 @@
     letter-spacing:-0.64px; 
     margin:0px 0px; 
 }
+
+@media (min-width: 1280px){
+    .bloc{
+        display: inline-block;
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 48px; 
+        margin-left: 114px; 
+        margin-top: 55px
+    }
+    .bpara{
+        color: #FFF; 
+        font-size: Raleway;
+        font-size: normal; 
+        font-size: 45px; 
+        font-weight: bold;
+        letter-spacing: -0.56px;
+        margin: 2px 2px
+    }
+    .common{
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-end; 
+        color: white; 
+        font-size: 45px; 
+        font-weight: bold;
+        margin: 0px 0px
+    }
+}
+@media (min-width: 674px) and (max-width: 1279px){
+    .bloc{
+        display: inline-block;
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 48px; 
+        margin-left: 30px; 
+        margin-top: 55px
+    }
+    .bpara{
+        color: #FFF; 
+        font-size: Raleway;
+        font-size: normal; 
+        font-size: 45px; 
+        font-weight: bold;
+        letter-spacing: -0.56px;
+        margin: 2px 2px
+    }
+    .common{
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-end; 
+        color: white; 
+        font-size: 45px; 
+        font-weight: bold;
+        margin: 0px 0px
+    }
+}
+@media (max-width: 674px){
+    .bloc{
+        display: inline-block;
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 48px; 
+        margin-left: 20px; 
+        margin-top: 55px
+    }
+    .bpara{
+        color: #FFF; 
+        font-size: Raleway;
+        font-size: normal; 
+        font-size: 35px; 
+        font-weight: bold;
+        letter-spacing: -0.56px;
+        margin: 2px 2px
+    }
+    .common{
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-end; 
+        color: white; 
+        font-size: 35px; 
+        font-weight: bold;
+        margin: 0px 0px
+    }
+}
+

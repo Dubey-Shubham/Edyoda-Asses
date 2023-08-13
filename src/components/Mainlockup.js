@@ -5,22 +5,22 @@ import livetv from '../photos/livetv.png'
 import Graduation from '../photos/Graduation.png'
 import ads from '../photos/ads.png'
 import Forma from './Forma'
-import './Navbar.css'
+import './Mainlockup.css'
 
 const Mainlockup = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "row" }}>
-                <div style={{ display: "inline-block", flexDirection: "column", alignItems: "flex-start", gap: "48px", marginLeft: "114px", marginTop: "55px" }}>
+            <div style={{ display: "flex", flexDirection: "column", flexWrap:"wrap"}}>
+                <div className='bloc'>
                     <div style={{ display: "flex", alignItems: "center", gap: "16px", alignSelf: "stretch" }}>
-                        <p style={{ color: "#FFF", fontFamily: "Raleway", fontStyle: "normal", fontSize: "45px", fontWeight: "bold", letterSpacing: "-0.56px", margin: "2px 2px" }}>Access curated courses worth</p>
+                        <p className='bpara'>Access curated courses worth</p>
                     </div>
                     <div style={{ display: "flex", alignItems: "flex-end", gap: "14px", alignSelf: "stretch" }}>
                         <p style={{ color: "#FFF", fontFamily: "Roboto", fontStyle: "normal", fontSize: "54px", fontWeight: "bold", letterSpacing: "-0.64px", margin: "0px 0px" }}>₹</p>
                         <span style={{ textDecoration: "line-through", color: "red" }}><p style={{ color: "#FFF", fontFamily: "Roboto", fontStyle: "normal", fontSize: "54px", fontWeight: "bold", letterSpacing: "-0.64px", margin: "0px 0px" }}>18,500</p></span>
-                        <p style={{ display: "flex", justifyContent: "center", alignItems: "flex-end", color: "white", fontSize: "45px", fontWeight: "bold", margin: "0px 0px" }}>at just</p>
+                        <p className='common'>at just</p>
                         <p style={{ display: "flex", justifyContent: "center", alignItems: "flex-end", color: "#0096FF", fontSize: "45px", fontWeight: "bold", margin: "0px 0px", fontFamily: "roboto" }}>₹ 99</p>
-                        <p style={{ display: "flex", justifyContent: "center", alignItems: "flex-end", color: "#FFFFFF", fontSize: "45px", fontWeight: "bold", margin: "0px 0px" }}>per year!</p>
+                        <p className='common'>per year!</p>
                     </div>
                     <div >
                         <div style={{ display: "flex", alignItems: "center", alignSelf: "strech", gap: "50px", margin: " 24px 0px 0px 0px" }}>
@@ -45,9 +45,9 @@ const Mainlockup = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                
                     <Forma />
-                </div>
+                
             </div>
         </>
     )

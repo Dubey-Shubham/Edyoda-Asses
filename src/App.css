@@ -40,7 +40,18 @@
     transform: rotate(360deg);
   }
 }
-.bg{
-  background-image: url(./photos/Background.jpg);
-  height: 120vh;
+
+
+@media (min-width: 1280px){
+  .bg{
+    background-image: url(./photos/Background.jpg);
+    height: 120vh;
+  }
+}
+
+@media (max-width: 1270px){
+  .bg{
+    background-image: url(./photos/Background.jpg);
+    height: 1520px;
+  }
 }
